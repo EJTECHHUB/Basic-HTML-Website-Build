@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-video {
+    /* Add styling for the featured video section */
+}
+
+.latest-vlogs {
+    /* Add styling for the latest vlogs section */
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
